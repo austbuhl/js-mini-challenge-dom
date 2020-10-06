@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+ can either defer the script load, move to bottom or addEventListener for DOM Load
 ```
 
 ## Deliverable 2
@@ -35,7 +35,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+call style on the header node and set color to red
 ```
 
 ## Deliverable 3
@@ -57,6 +57,10 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
+can access PLAYERS because we're loading from same HTML file? Or because of our file structure?
+PLAYERS has a bunch of objects
+
+built out render players function and then iterate over players array to create the corresponding html
 
 ```
 
@@ -68,5 +72,6 @@ Hint: You can use `querySelector` with [CSS Attribute Selectors](https://develop
 
 **YOUR NOTES**
 ```
-
+document.querySelector('[data-number="7"]') 
+need to wrap the data attribute in quotes and brackets
 ```
